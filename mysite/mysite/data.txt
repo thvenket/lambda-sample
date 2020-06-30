@@ -1,8 +1,6 @@
 DuploCloud
 <br>
-One unified platform for all your DevSecOps needs
-Hyper-converged DevOps that includes everything from network,
-compute, storage, containers to cloud native services and CI/CD
+Timatics demo 01.
 <br>
 Built-in Security
 and Compliance
