@@ -7,13 +7,11 @@ import requests
 def update_lambda():
 
     s3_file = 'apigateway-zappa-demo.zip'
-    API_TOKEN = os.getenv('DUPLO_API_TOKEN')
     S3_BUCKET_LAMBDA = os.getenv('S3_BUCKET_LAMBDA')
     TENANTID = os.getenv('TENANTID')
-    DUPLO_URL = os.getenv('DUPLO_URL')
+    DUPLO_URL = os.getenv('DISCOVERY_EP')
 
     headers = {
-        "Authorization": "Bearer {0}".format( API_TOKEN ),
                 'Content-Type': 'application/json'
         }
     data = {
