@@ -18,5 +18,5 @@ def getInfo(httpRequest):
     data_file = os.path.join(os.path.dirname(os.path.abspath(__file__)) , "data.txt")
     with open (data_file, "r") as myfile:
         data = myfile.readlines()
-    response = "{0}<br>{1}".format(title, data)
+    response = "{0}<br>{1}".format(title, "<br>".join(data))
     return HttpResponse(response, content_type="text/html")
