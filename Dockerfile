@@ -65,7 +65,7 @@ RUN virtualenv duplo && \
    ls -alth *.zip
 
 #new zappa build is at /misite/zip/mysite-zappa.zip
-RUN mkdir zip && mv mysite-*.zip zip/mysite-zappa.zip  && ls -atlh zip
+RUN mkdir zip && mv mysite-*.zip zip/apigateway-zappa-demo.zip  && ls -atlh zip
 
 #RUN pip install awscli boto3 click zappa requests
 #todo:find zip and upload to s3

@@ -33,7 +33,7 @@ mv mysite-*.zip zip/mysite-zappa.zip
 ls -atlh zip
 
 #s3 uppload
-aws s3 cp zip/mysite-zappa.zip s3://$S3_BUCKET_LAMBDA/
+aws s3 cp zip/apigateway-zappa-demo.zip s3://$S3_BUCKET_LAMBDA/
 
 echo "python lambda_update.py  start"
 python lambda_update.py
