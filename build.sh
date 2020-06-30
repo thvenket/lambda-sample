@@ -29,7 +29,7 @@ ls -alth *.zip
 
 #copy zappa zip build to ./mysite/zip/mysite-zappa.zip
 mkdir zip
-mv mysite-*.zip zip/mysite-zappa.zip
+mv mysite-*.zip zip/apigateway-zappa-demo.zip
 ls -atlh zip
 
 #s3 uppload
