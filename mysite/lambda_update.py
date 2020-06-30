@@ -10,6 +10,7 @@ def update_lambda():
     S3_BUCKET_LAMBDA = os.getenv('S3_BUCKET_LAMBDA')
     TENANTID = os.getenv('TENANTID')
     DUPLO_URL = os.getenv('DISCOVERY_EP')
+    
     function_name = os.getenv('LAMBDA_NAME')
     if function_name is None:
         function_name = "duploservices-dev01-helloworld-128329325849"
@@ -34,7 +35,7 @@ def update_lambda():
 
     #UpdateLambdaFunction
     data = {
-     "FunctionName":"duploservices-dev01-helloworld-128329325849",
+     "FunctionName":function_name,
      "S3Bucket":S3_BUCKET_LAMBDA,
      "S3Key":s3_file
     }
