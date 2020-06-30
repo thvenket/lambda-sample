@@ -1,0 +1,11 @@
+DuploCloud
+<br>
+One unified platform for all your DevSecOps needs
+Hyper-converged DevOps that includes everything from network,
+compute, storage, containers to cloud native services and CI/CD
+<br>
+Built-in Security
+and Compliance
+Controls natively integrated into DevOps workflows.
+Out of box and Continuous compliance for PCI-DSS, HIPAA, SOC2 and GDPR
+<br>
